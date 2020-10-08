@@ -16,7 +16,12 @@ class Topo extends Component {
     render(){
         return(
           
-          <header>
+//           <header>
+//             <div class="container">
+// <div class="row">
+//  <div class="col"></div>
+// </div>
+// </div>
               <nav>
          <a href="">inicio</a>
          <a> </a>
@@ -26,6 +31,7 @@ class Topo extends Component {
          <a> </a>
          <a href="">serviços</a>
               </nav>
+            
         </header>
         )
     }
