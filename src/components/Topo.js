@@ -18,8 +18,13 @@ class Topo extends Component {
           
           <header>
               <nav>
-              eu sou o {this.props.name}
-              <img src={this.props.img}></img>
+         <a href="">inicio</a>
+         <a> </a>
+         <a href="">contato</a>
+         <a> </a>
+         <a href="">sobre</a>
+         <a> </a>
+         <a href="">serviços</a>
               </nav>
         </header>
         )

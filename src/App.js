@@ -8,7 +8,7 @@ import Serviços from "./components/serviços";
 import About from "./components/about";
 import Contato from "./components/contato";
 import Parceiros from "./components/parceiros"
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 // function App() {
@@ -22,13 +22,14 @@ import Parceiros from "./components/parceiros"
 class App extends Component {
   render(){
     return (
-      <div>
-        <Footer></Footer>
+      <header className="App-header">
+        <Topo name={this.props.name} age="28" email="fulano@gmail.com"></Topo>
         <About></About>
         <Serviços></Serviços>
         <Contato></Contato>
         <Parceiros></Parceiros>
-      </div>
+        <Footer></Footer>
+        </header>
     )
   }
 }
