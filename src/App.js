@@ -9,8 +9,7 @@ import About from "./components/about";
 import Contato from "./components/contato";
 import Parceiros from "./components/parceiros"
 import 'bootstrap/dist/css/bootstrap.min.css'
-
-
+import ads from "./imagem anuncio/anuncio.gif"
 // function App() {
 //   return (
 //     <div className="App">
@@ -22,15 +21,23 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 class App extends Component {
   render(){
     return (
-      <header className="App-header">
-        <Topo name={this.props.name} age="28" email="fulano@gmail.com"></Topo>
+      <div className="App-header" >
+        <Topo></Topo>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+       
+        <img src={ads} className="anuncio"></img>
+       
         <About></About>
         <Serviços></Serviços>
         <Contato></Contato>
         <Parceiros></Parceiros>
         <Footer></Footer>
-        </header>
+        </div>
     )
   }
 }
 export default App;
+

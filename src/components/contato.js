@@ -3,7 +3,10 @@ import React, {Component} from 'react';
 class contato extends Component{
     render(){
         return(
-            <div>contato</div>
+            <div className='master'>
+                <p>contato</p>
+
+            </div>
         )
     }
 }

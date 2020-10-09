@@ -22,17 +22,20 @@ class Topo extends Component {
 //  <div class="col"></div>
 // </div>
 // </div>
-              <nav>
-         <a href="">inicio</a>
+
+              <nav className="tossing camada">
+                  
+         <a href="" className="App-link ">inicio</a>
          <a> </a>
-         <a href="">contato</a>
+         <a href="" className="pink">contato</a>
          <a> </a>
-         <a href="">sobre</a>
+         <a href="" className="yellow">sobre</a>
          <a> </a>
-         <a href="">serviços</a>
+         <a href="" className="green">serviços</a>
+        
               </nav>
-            
-        </header>
+              
+        
         )
     }
     
